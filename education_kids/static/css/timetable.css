@@ -1,0 +1,60 @@
+.card_name_timetable{
+    color: #0a53be;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 40px;
+    font-size: 36pt;
+    text-align: center;
+}
+
+.style_table_th{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 12pt;
+}
+.size_td{
+    width: 10%;
+}
+#color_th_1{
+    background-color: #f8d7da;
+}
+#color_th_2{
+    background-color: #ffecb5;
+}
+#color_th_3{
+    background-color: #c5d7f2;
+}
+#color_th_4{
+    background-color: #badbcc;
+}
+#color_th_5{
+    background-color: #86b7fe;
+}
+#color_th_6{
+    background-color: #f2e7c3;
+}
+#color_th_7{
+    background-color: #f5c2c7;
+}#color_th_8{
+    background-color: #ece1be;
+}
+#style_td{
+    background-color: #fcf8e3;
+}
+.csv_style{
+    color: #2AABBA;
+    font-style: italic;
+    text-decoration-line: none;
+    margin-left: 35px;
+}
+.csv_style:hover {
+   color: #C9D414;
+}
+.csv_img_style{
+    padding-right: 30px;
+    width: 70px;
+    height: 30px;
+}
+.style_block_csv{
+    margin-bottom: 180px;
+    padding-top: 50px;
+}

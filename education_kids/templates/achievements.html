@@ -1,0 +1,53 @@
+{% extends "index.html" %}
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="../static/css/achievements.css">
+{% endblock %}
+{% load i18n %}
+<title>{% trans "Достижения" %}</title>
+{% block form %}
+    {% load i18n %}
+    <h6 class="decoration_achievements">{% trans "Достижения" %}</h6>
+    <div class="card-group">
+        <div class="container">
+    {% for el in achievements_list %}
+     <div class="row">
+        <div class="col-lg-6">
+            <div class="card card_achievements">
+                <img src="{{ el.photo_1.url }}" class="size_image" alt="...">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card card_achievements">
+                <img src="{{ el.photo_2.url }}" class="size_image" alt="...">
+            </div>
+        </div>
+     </div>
+        <div class="row">
+        <div class="col-lg-6">
+            <div class="card card_achievements">
+                <img src="{{ el.photo_3.url }}" class="size_image" alt="...">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card card_achievements">
+                <img src="{{ el.photo_4.url }}" class="size_image" alt="...">
+            </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-6">
+            <div class="card card_achievements">
+                <img src="{{ el.photo_5.url }}" class="size_image" alt="...">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card card_achievements">
+                <img src="{{ el.photo_6.url }}" class="size_image" alt="...">
+            </div>
+        </div>
+        </div>
+    {% endfor %}
+</div>
+        </div>
+{% endblock %}
+

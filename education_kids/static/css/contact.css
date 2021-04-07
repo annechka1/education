@@ -1,0 +1,41 @@
+.contacts_text{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: #0c4128;
+    font-size: 36pt;
+}
+.card.card_contact{
+    margin: 40px 412px;
+    border: 0;
+}
+.text_image.contact_style_text{
+    margin-left: 20px;
+}
+.card_contact_text{
+    margin-left: 60px;
+    font-family: 'Courgette', cursive;
+}
+.location_image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.card-body.text_image{
+    font-family: 'Courgette', cursive;
+}
+#contact_color_1{
+    font-size: 20pt;
+    color: brown;
+}
+#contact_color_2{
+    font-size: 20pt;
+    color: #0a53be;
+}
+#contact_color_3{
+    font-size: 20pt;
+    color: #fd7e14;
+}
+.map{
+    margin-bottom: 30px;
+}

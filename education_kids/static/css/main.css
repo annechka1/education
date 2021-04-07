@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.navbar_text a{
+    font-family: 'Courgette', cursive;
+}
+.navbar_1{
+    margin-left: 100px;
+}
+.navbar_1 text{
+    color: #EDFF21;
+}
+#ul_1 text{
+    color: #3dd5f3;
+}
+#ul_2 text{
+    color: lightgreen;
+}
+#ul_3 text{
+    color: #fd7e14;
+}
+#ul_4 text{
+    color: #dc3545;
+}
+#ul_5 text{
+    color: #86b7fe;
+}
+#ul_6 text{
+    color: gold;
+}
+.button_1{
+    font-family: 'Courgette', cursive;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+.button_2{
+    font-family: 'Courgette', cursive;
+    margin-left: 120px;
+    margin-right: 180px;
+}
+.button_3{
+    font-family: 'Courgette', cursive;
+    margin-right: 20px;
+}
+.button_4{
+    font-family: 'Courgette', cursive;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.style_user{
+    width: 40px;
+    border-radius:50%;
+    margin-left: 20px;
+}
+.text_user{
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+}
+#dropdownMenuButton1{
+    font-family: 'Courgette', cursive;
+    margin-right: 180px;
+}
+.style_name_modal{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20pt;
+}
+#name_user_style{
+    font-family: 'Fredoka One', cursive;
+    color: #fd7e14;
+    font-size: 14pt;
+}
+#password_user_style{
+    font-family: 'Fredoka One', cursive;
+    color: #0b5ed7;
+    font-size: 14pt;
+}
+.button_modal_style{
+    font-family: 'Courgette', cursive;
+}
+#register_name_style{
+    font-family: 'Fredoka One', cursive;
+    color: #198754;
+    font-size: 14pt;
+}
+#register_password_style{
+    font-family: 'Fredoka One', cursive;
+    color: #6a1a21;
+    font-size: 14pt;
+}
+.footer-text{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+.footer-text text{
+    color: chartreuse;
+}
+.slider{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.my_image{
+    height: 400px;
+}
+.ram_1{
+    background-color: #EDFF21;
+}
+
+.card_main_size{
+    max-height: 500px;
+    max-width: 500px;
+    border: 0;
+    margin: 50px auto 230px auto;
+}
+
+.card_title{
+    font-family: 'Fredoka One', cursive;
+    color: #1a1e21;
+    background-color: #EDFF21;
+    font-size: 20pt;
+}
+
+.video_main{
+    width: 1000px;
+    margin: auto;
+}
+
+.card_style{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 36pt;
+    color: blue;
+}
+.card_style_text{
+    text-indent: 5%;
+    text-align: center;
+    font-size: 15pt;
+    display: inline;
+    color: white;
+    line-height: 2;
+    background-color: #fd7e14;
+    padding: 5px 20px;
+    -webkit-box-decoration-break: clone;
+    border-radius: 12px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.card-img-top{
+    max-height: 500px;
+    max-width: 500px;
+}
+.card-body{
+    padding-left:0;
+    padding-right:0;
+}
+.card_text_name{
+    text-align: center;
+    text-indent: 5%;
+    font-size: 16pt;
+}
+
+
+
+

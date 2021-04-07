@@ -1,0 +1,159 @@
+{% extends "index.html" %}
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="../static/css/timetable.css">
+{% endblock %}
+{% load i18n %}
+<title>{% trans "Учителя" %}</title>
+{% block form %}
+    {% load i18n %}
+    <h6 class="card_name_timetable">{% trans "Расписание занятий" %}</h6>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <table class="table table-bordered table_size">
+  <tr>
+      <th class="style_table_th" id="color_th_1">{% trans "Время" %}</th>
+      <th class="style_table_th" id="color_th_2">{% trans "Понедельник" %}</th>
+      <th class="style_table_th" id="color_th_3">{% trans "Вторник" %}</th>
+      <th class="style_table_th" id="color_th_4">{% trans "Среда" %}</th>
+      <th class="style_table_th" id="color_th_5">{% trans "Четверг" %}</th>
+      <th class="style_table_th" id="color_th_6">{% trans "Пятница" %}</th>
+      <th class="style_table_th" id="color_th_7">{% trans "Суббота" %}</th>
+      <th class="style_table_th" id="color_th_8">{% trans "Воскресенье" %}</th>
+  </tr>
+  <tr class="style_table_th">
+      <td class="size_td" id="style_td">9:30 - 10:30</td>
+      {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+           <td>{{el_4.name_course}}</td>
+           <td>{{el_4.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+  <tr class="style_table_th">
+      <td class="size_td" id="style_td">11:00 - 12:00</td>
+      {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el_2.name_course}}</td>
+          <td>{{el.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el.name_course}}</td>
+           <td>{{el_3.name_course}}</td>
+           <td>{{el_2.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+  <tr class="style_table_th">
+      <td class="size_td" id="style_td">12:30 - 13:30</td>
+      {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el_2.name_course}}</td>
+          <td>{{el_4.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+          <td>{{el.name_course}}</td>
+          <td>{{el.name_course}}</td>
+           <td>{{el.name_course}}</td>
+           <td>{{el_4.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+   <tr class="style_table_th">
+      <td class="size_td" id="style_td">14:30 - 15:30</td>
+       {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el_4.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el_4.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+           <td>{{el.name_course}}</td>
+           <td>{{el.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+  <tr class="style_table_th">
+      <td class="size_td" id="style_td">16:00 - 17:00</td>
+      {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+          <td>{{el_4.name_course}}</td>
+           <td>{{el_2.name_course}}</td>
+           <td>{{el_3.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+  <tr class="style_table_th">
+      <td class="size_td" id="style_td">17:30 - 18:30</td>
+      {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el_3.name_course}}</td>
+          <td>{{el_2.name_course}}</td>
+          <td>{{el_4.name_course}}</td>
+          <td>{{el.name_course}}</td>
+          <td>{{el_4.name_course}}</td>
+           <td>{{el.name_course}}</td>
+           <td>{{el_3.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+  <tr class="style_table_th">
+      <td class="size_td" id="style_td">19:00 - 20:00</td>
+      {% for el in course_list %}
+          {% for el_2 in course_list_2 %}
+              {% for el_3 in course_list_3 %}
+                  {% for el_4 in course_list_4 %}
+      <td>{{el_2.name_course}}</td>
+          <td>{{el.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el_3.name_course}}</td>
+          <td>{{el.name_course}}</td>
+           <td>{{el_3.name_course}}</td>
+           <td>{{el_2.name_course}}</td>
+      {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  </tr>
+</table>
+<div class="style_block_csv">
+<a href="/get_csv" class="csv_style"><img src="../static/img_for_html/csv.png" class="csv_img_style">{% trans "Скачать информацию об оплате" %}</a>
+  </div>
+</div>
+</div>
+    <div>
+</div>
+</div>
+{% endblock %}

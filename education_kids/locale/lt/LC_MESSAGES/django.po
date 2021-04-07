@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-03 19:03+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+#: .\education_kids\templates\achievements.html:6
+#: .\education_kids\templates\achievements.html:9
+msgid "Достижения"
+msgstr "Progresas"
+
+#: .\education_kids\templates\contacts.html:6
+msgid "О нас"
+msgstr "Apie mus"
+
+#: .\education_kids\templates\contacts.html:12
+#: .\education_kids\templates\index.html:36
+msgid "Контакты"
+msgstr "Kontaktai"
+
+#: .\education_kids\templates\contacts.html:14
+msgid "Расположение:"
+msgstr "Vieta:"
+
+#: .\education_kids\templates\contacts.html:15
+#: .\education_kids\templates\contacts.html:17
+#: .\education_kids\templates\contacts.html:19
+msgid "Некоторая информация"
+msgstr "Šiek tiek informacijos"
+
+#: .\education_kids\templates\contacts.html:16
+msgid "E-mail:"
+msgstr "El. Paštas:"
+
+#: .\education_kids\templates\contacts.html:16
+msgid "Почта:"
+msgstr "El. Paštas:"
+
+#: .\education_kids\templates\contacts.html:18
+msgid "Звонить по номеру:"
+msgstr "Skambinkite numeriu:"
+
+#: .\education_kids\templates\course.html:6
+#: .\education_kids\templates\index.html:27
+msgid "Курсы"
+msgstr "Kursai"
+
+#: .\education_kids\templates\course.html:10
+msgid "Полная программа курсов"
+msgstr "Baigti kursų programą"
+
+#: .\education_kids\templates\course.html:21
+#: .\education_kids\templates\course.html:28
+#: .\education_kids\templates\course.html:35
+#: .\education_kids\templates\course.html:59
+#: .\education_kids\templates\course.html:66
+#: .\education_kids\templates\course.html:73
+#: .\education_kids\templates\course.html:97
+#: .\education_kids\templates\course.html:104
+#: .\education_kids\templates\course.html:111
+#: .\education_kids\templates\course.html:136
+#: .\education_kids\templates\course.html:143
+#: .\education_kids\templates\course.html:150
+msgid "Стоимость:"
+msgstr "Kaina:"
+
+#: .\education_kids\templates\course.html:21
+#: .\education_kids\templates\course.html:28
+#: .\education_kids\templates\course.html:35
+#: .\education_kids\templates\course.html:59
+#: .\education_kids\templates\course.html:66
+#: .\education_kids\templates\course.html:73
+#: .\education_kids\templates\course.html:97
+#: .\education_kids\templates\course.html:104
+#: .\education_kids\templates\course.html:111
+#: .\education_kids\templates\course.html:136
+#: .\education_kids\templates\course.html:143
+#: .\education_kids\templates\course.html:150
+msgid "€ за одно занятие"
+msgstr "€ už vieną pamoką"
+
+#: .\education_kids\templates\course.html:39
+#: .\education_kids\templates\course.html:77
+#: .\education_kids\templates\course.html:115
+#: .\education_kids\templates\course.html:154
+msgid "Перейти к курсу"
+msgstr "Eik į kursą"
+
+#: .\education_kids\templates\index.html:10
+msgid "Главная страница"
+msgstr "Pagrindinis puslapis"
+
+#: .\education_kids\templates\index.html:24
+msgid "Главная"
+msgstr "Namai"
+
+#: .\education_kids\templates\index.html:30
+#: .\education_kids\templates\teachers.html:6
+#: .\education_kids\templates\timetable.html:6
+msgid "Учителя"
+msgstr "Mokytojai"
+
+#: .\education_kids\templates\index.html:33
+msgid "Наши достижения"
+msgstr "Mūsų pasiekimai"
+
+#: .\education_kids\templates\index.html:40
+msgid "Расписание"
+msgstr "Tvarkaraštį"
+
+#: .\education_kids\templates\index.html:46
+#: .\education_kids\templates\index.html:92
+msgid "Привет"
+msgstr "Sveiki"
+
+#: .\education_kids\templates\index.html:47
+msgid "Пользователь"
+msgstr "Vartotojas"
+
+#: .\education_kids\templates\index.html:50
+msgid "Выйти"
+msgstr "Atsijungti"
+
+#: .\education_kids\templates\index.html:55
+#: .\education_kids\templates\index.html:97
+msgid "Войти"
+msgstr "Įeiti"
+
+#: .\education_kids\templates\index.html:58
+#: .\education_kids\templates\index.html:111
+msgid "Регистрация"
+msgstr "įsiregistruoti"
+
+#: .\education_kids\templates\index.html:64
+msgid "Язык"
+msgstr "Kalba"
+
+#: .\education_kids\templates\index.html:67
+msgid "Русский"
+msgstr "Rusų"
+
+#: .\education_kids\templates\index.html:68
+msgid "English"
+msgstr "Anglų"
+
+#: .\education_kids\templates\index.html:69
+msgid "Lietuvis"
+msgstr "Lietuvis"
+
+#: .\education_kids\templates\index.html:78
+msgid "Авторизация"
+msgstr "Leidimas"
+
+#: .\education_kids\templates\index.html:84
+msgid "Имя пользователя:"
+msgstr "Vartotojo vardas:"
+
+#: .\education_kids\templates\index.html:88
+msgid "Пароль:"
+msgstr "Slaptažodis:"
+
+#: .\education_kids\templates\index.html:98
+#: .\education_kids\templates\index.html:126
+msgid "Закрыть"
+msgstr "Uždaryti"
+
+#: .\education_kids\templates\index.html:117
+msgid "Придумайте, пожалуйста, имя пользователя"
+msgstr "Prašau sugalvoti vartotojo vardą"
+
+#: .\education_kids\templates\index.html:121
+msgid "Придумайте, пожалуйста, пароль"
+msgstr "Prašau sugalvoti slaptažodį"
+
+#: .\education_kids\templates\index.html:125
+msgid "Подтвердить"
+msgstr "Patvirtinti"
+
+#: .\education_kids\templates\index.html:149
+msgid "Радужная собачка"
+msgstr "Vaivorykštinis šuo"
+
+#: .\education_kids\templates\index.html:151
+msgid "Работы наших учителей"
+msgstr "Mūsų mokytojų darbai"
+
+#: .\education_kids\templates\index.html:155
+msgid "Фантастические горы"
+msgstr "Fantastiški kalnai"
+
+#: .\education_kids\templates\index.html:157
+msgid "Уникальный подход к каждому ребёнку"
+msgstr "Unikalus požiūris į kiekvieną vaiką"
+
+#: .\education_kids\templates\index.html:161
+msgid "Цветной полёт"
+msgstr "Spalvotas skrydis"
+
+#: .\education_kids\templates\index.html:163
+msgid "Веселье и радость на каждом на занятии!!!"
+msgstr "Linksmybės ir džiaugsmas visiems klasės žmonėms !!!"
+
+#: .\education_kids\templates\index.html:183
+#: .\education_kids\templates\index.html:185
+#: .\education_kids\templates\index.html:192
+#: .\education_kids\templates\index.html:194
+#: .\education_kids\templates\index.html:219
+#: .\education_kids\templates\index.html:221
+#: .\education_kids\templates\index.html:228
+#: .\education_kids\templates\index.html:230
+msgid "Волшебные рисунки"
+msgstr "Magiški piešiniai"
+
+#: .\education_kids\templates\index.html:186
+#: .\education_kids\templates\index.html:195
+#: .\education_kids\templates\index.html:222
+#: .\education_kids\templates\index.html:231
+msgid ""
+"Небольшой пример текста, который должен основываться на названии карточки и "
+"составлять основную часть содержимого карты."
+msgstr ""
+"Mažas teksto pavyzdys, kuris turėtų būti pagrįstas kortelės pavadinimu ir"
+"sudaro didžiąją žemėlapio turinio dalį."
+
+#: .\education_kids\templates\index.html:241
+msgid "Все права защищены 2021©"
+msgstr "Visos teisės saugomos 2021 ©"
+
+#: .\education_kids\templates\teachers.html:9
+msgid "Наши любимые учителя"
+msgstr "Mūsų mėgstamiausi mokytojai"
+
+#: .\education_kids\templates\timetable.html:9
+msgid "Расписание занятий"
+msgstr "Užsiėmimų tvarkaraštis"
+
+#: .\education_kids\templates\timetable.html:14
+msgid "Время"
+msgstr "Laikas"
+
+#: .\education_kids\templates\timetable.html:15
+msgid "Понедельник"
+msgstr "Pirmadienis"
+
+#: .\education_kids\templates\timetable.html:16
+msgid "Вторник"
+msgstr ""
+
+#: .\education_kids\templates\timetable.html:17
+msgid "Среда"
+msgstr "Antradienis"
+
+#: .\education_kids\templates\timetable.html:18
+msgid "Четверг"
+msgstr "Ketvirtadienis"
+
+#: .\education_kids\templates\timetable.html:19
+msgid "Пятница"
+msgstr "Penktadienis"
+
+#: .\education_kids\templates\timetable.html:20
+msgid "Суббота"
+msgstr "Šeštadienis"
+
+#: .\education_kids\templates\timetable.html:21
+msgid "Воскресенье"
+msgstr "Sekmadienis"
+
+#: .\education_kids\templates\timetable.html:151
+msgid "Скачать информацию об оплате"
+msgstr "Atsisiųskite mokėjimo informaciją"

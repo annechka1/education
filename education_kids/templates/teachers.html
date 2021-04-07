@@ -1,0 +1,94 @@
+{% extends "index.html" %}
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="../static/css/teachers.css">
+{% endblock %}
+{% load i18n %}
+<title>{% trans "Учителя" %}</title>
+{% block form %}
+    {% load i18n %}
+    <h6 class="card_name_teachers">{% trans "Наши любимые учителя" %}</h6>
+<div class="container">
+<div class="row">
+    {% for el in teachers_list %}
+<div id="card_teachers" class="card mb-3 card_size" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="{{ el.photo_1.url }}" alt="{{el.surname}}" class="card_teachers">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title name_teachers">{{el.name}}&#160;{{el.surname}}</h5>
+        <p class="card-text card_text_decor">{{ el.education_level }}</p>
+      </div>
+    </div>
+  </div>
+    <div class="row g-0">
+        <div class="col-md-12 decoration_text">
+            <p class="card-text description_text">{{ el.description }}</p>
+        </div>
+    </div>
+</div>
+    {% endfor %}
+{% for el_2 in teachers_list_2 %}
+<div id="card_teachers_2" class="card mb-3 card_size" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="{{ el_2.photo_1.url }}" alt="{{el_2.surname}}" class="card_teachers">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title name_teachers">{{el_2.name}}&#160;{{el_2.surname}}</h5>
+        <p class="card-text card_text_decor">{{ el_2.education_level }}</p>
+      </div>
+    </div>
+  </div>
+    <div class="row g-0">
+        <div class="col-md-12 decoration_text">
+            <p class="card-text description_text">{{ el_2.description }}</p>
+        </div>
+    </div>
+</div>
+    {% endfor %}
+{% for el_3 in teachers_list_3 %}
+<div id="card_teachers_3" class="card mb-3 card_size" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="{{ el_3.photo_1.url }}" alt="{{el_3.surname}}" class="card_teachers">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title name_teachers">{{el_3.name}}&#160;{{el_3.surname}}</h5>
+        <p class="card-text card_text_decor">{{ el_3.education_level }}</p>
+      </div>
+    </div>
+  </div>
+    <div class="row g-0">
+        <div class="col-md-12 decoration_text">
+            <p class="card-text description_text">{{ el_3.description }}</p>
+        </div>
+    </div>
+</div>
+    {% endfor %}
+{% for el_4 in teachers_list_4 %}
+<div id="card_teachers_4" class="card mb-3 card_size" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="{{ el_4.photo_1.url }}" alt="{{el_4.surname}}" class="card_teachers">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title name_teachers">{{el_4.name}}&#160;{{el_4.surname}}</h5>
+        <p class="card-text card_text_decor">{{ el_4.education_level }}</p>
+      </div>
+    </div>
+  </div>
+    <div class="row g-0">
+        <div class="col-md-12 decoration_text">
+            <p class="card-text description_text">{{ el_4.description }}</p>
+        </div>
+    </div>
+</div>
+    {% endfor %}
+</div>
+</div>
+{% endblock %}
